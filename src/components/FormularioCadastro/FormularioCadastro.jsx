@@ -25,6 +25,8 @@ class FormularioCadastro extends Component {
     this.props.criarNota(this.titulo, this.texto);
   }
 
+  
+
   render() {
     return (
       <form className="form-cadastro"
